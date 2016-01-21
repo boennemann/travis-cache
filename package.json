@@ -1,0 +1,19 @@
+{
+  "name": "travis-cache",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boennemann/travis-cache.git"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "lodash": "^4.0.0"
+  },
+  "devDependencies": {
+    "tap": "^5.1.1"
+  }
+}
