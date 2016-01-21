@@ -7,3 +7,5 @@ notifications:
   email: false
 node_js:
 - 5
+before_cache:
+- npm prune
